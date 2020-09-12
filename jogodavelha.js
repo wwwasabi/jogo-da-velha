@@ -317,11 +317,11 @@ function inicia() {
     if (quemComeca == 1) {
         quemComeca = 0;
         quemJoga = quemComeca;
-        document.getElementById("dvQuemComeca").innerHTML = "Quem começa é o: Jogador"
+        document.getElementById("dvQuemComeca").innerHTML = "Quem começa é o:<br> Jogador"
     } else {
         quemComeca = 1;
         quemJoga = quemComeca;
-        document.getElementById("dvQuemComeca").innerHTML = "Quem começa é a: CPU"
+        document.getElementById("dvQuemComeca").innerHTML = "Quem começa é a:<br> CPU"
         cpuJoga();
     }
 

@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(76, 140, 201);
+    margin-top: 100px;
+}
+
 .posJogo {
     width: 50px;
     height: 50px;
@@ -10,12 +15,42 @@
     font-size: 40px;
 }
 
+#dvmenu {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 425px;
+    text-align: center;
+    display: inline-block;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 130px;
+    height: 55px;
+    border-radius: 3em;
+    border: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    display: block;
+}
+
+#dvQuemComeca {
+    font-family: "Roboto", sans-serif;
+    /* text-justify: center;
+    margin-left: 18px; */
+}
+
 #dvjogo {
-    width: 160px;
-    height: 160px;
+    background-color: rgb(156, 185, 240);
+    width: 155px;
+    height: 155px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    padding: auto;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #p1 {
